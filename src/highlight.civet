@@ -1,0 +1,4 @@
+"civet autoLet react jsxCode"
+
+export function Highlight({children = null})
+  <span style={ backgroundColor: 'yellow' }>{children}</span>

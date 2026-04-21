@@ -1,10 +1,8 @@
 "civet autoLet react jsxCode"
 import * as React from 'react';
 import { createRoot } from 'react-dom/client';
+import { App } from 'app.civet'
 
-App = => <h1>"Hello, MDX XP!"</h1>
-
-document.createElement 'div' 
-  ||> document.body.appendChild
+document.body
   |> createRoot
   |> .render <App />

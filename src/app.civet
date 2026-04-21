@@ -1,0 +1,11 @@
+"civet autoLet react jsxCode"
+import Doc from './doc.mdx'
+import Doc2 from './doc2.mdx'
+
+export App = => 
+  <h1>"Hello, MDX XP!"</h1>
+  <hr />
+  <Doc />
+  <Doc2 />
+  <hr />
+  <p>"This is a React component rendered from MDX content."</p>

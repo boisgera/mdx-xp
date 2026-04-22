@@ -1,8 +1,5 @@
 {
-  "name": "mdx-xp",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
+  "name": "skadoosh",
   "devDependencies": {
     "@types/bun": "latest",
     "@types/react-dom": "^19.2.3",
